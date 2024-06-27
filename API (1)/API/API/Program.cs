@@ -66,6 +66,7 @@ app.MapPut("/tarefas/alterar/{id}", ([FromServices] AppDataContext ctx, [FromRou
     tarefa.Status = statusAlterado.Tarefa;
     ctx.Tarefas.Update();
     ctx.SaveChanges();
+    return Results.Ok("Status Alterado");
 });
 
 //GET: http://localhost:5273/tarefas/naoconcluidas
