@@ -10,3 +10,10 @@ Content-Type: application/json
     "descricao": "Estudar Node.js para desenvolver aplicações web",
     "categoriaId": "6d091456-5a2f-4b5a-98fc-f1a3b50a627d"
 }
+
+PUT http://localhost:5273/tarefas/alterar/{id}
+Content-Type: application/json
+
+{
+    "status": "Em andamento"
+}
