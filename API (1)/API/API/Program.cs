@@ -58,6 +58,14 @@ app.MapPost("/tarefas/cadastrar", ([FromServices] AppDataContext ctx, [FromBody]
 app.MapPut("/tarefas/alterar/{id}", ([FromServices] AppDataContext ctx, [FromRoute] string id) =>
 {
     //Implementar a alteração do status da tarefa
+    Tarefa? tarefa = ctx.Tarefas.Find(id);
+    if (tarefa is null)
+    {
+        return Results.NotFound("Tarefa não encontrada");
+    }
+    tarefa.Status = statusAlterado.Tarefa;
+    ctx.Tarefas.Update();
+    ctx.SaveChanges();
 });
 
 //GET: http://localhost:5273/tarefas/naoconcluidas
