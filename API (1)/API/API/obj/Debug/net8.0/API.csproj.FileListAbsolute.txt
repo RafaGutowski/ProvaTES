@@ -120,3 +120,13 @@ C:\Users\didec\OneDrive\Área de Trabalho\A1\API\api\obj\Debug\net8.0\refint\API
 C:\Users\didec\OneDrive\Área de Trabalho\A1\API\api\obj\Debug\net8.0\API.pdb
 C:\Users\didec\OneDrive\Área de Trabalho\A1\API\api\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\didec\OneDrive\Área de Trabalho\A1\API\api\obj\Debug\net8.0\ref\API.dll
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.dll
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\refint\API.dll
+C:\Users\autologon\Documents\ProvaTES\API (1)\API\API\obj\Debug\net8.0\API.pdb

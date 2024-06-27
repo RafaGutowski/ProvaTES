@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 
 namespace API.Models;
 
@@ -9,7 +10,7 @@ public class AppDataContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source=app.db");
+        optionsBuilder.UseSqlite("Data Source=tarefas.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,4 +27,6 @@ public class AppDataContext : DbContext
             new Tarefa { TarefaId = "e5d4a7b9-1f9e-4c4a-ae3b-5b7c1a9d2e3f", Titulo = "Passeio no parque", Descricao = "Dar um passeio relaxante no parque", CriadoEm = DateTime.Now.AddDays(14), CategoriaId = "39be53a2-fc09-4b6a-bafa-18a6a23c8f6e", Status = "Não iniciada" }
         );
     }
+
+
 }

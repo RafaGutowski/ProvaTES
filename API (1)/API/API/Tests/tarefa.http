@@ -11,9 +11,16 @@ Content-Type: application/json
     "categoriaId": "6d091456-5a2f-4b5a-98fc-f1a3b50a627d"
 }
 
+## Alterar status da tarefa
 PUT http://localhost:5273/tarefas/alterar/{id}
 Content-Type: application/json
 
 {
     "status": "Em andamento"
 }
+
+## Listar as tarefas com status "não concluidas" e "em andamento"
+GET http://localhost:5273/tarefas/naoconcluidas
+
+## Listar somente as taferas com status "concluidas"
+GET http://localhost:5273/tarefas/concluidas
