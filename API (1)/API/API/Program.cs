@@ -76,7 +76,7 @@ app.MapGet("/tarefas/naoconcluidas", ([FromBody] Tarefa tarefa, [FromServices] A
     //Implementar a listagem de tarefas não concluídas
     if (!string.IsNullOrEmpty(tarefa.Status))
     {
-        query = query.Where(1 => 1.Status.Contains(tarefa.Status));
+        String Status = "não conluida";
     }
 
     var tarefasFiltradas = query.ToList();
@@ -98,4 +98,5 @@ app.MapGet("/tarefas/concluidas", ([FromServices] AppDataContext ctx) =>
     
 });
 
+app.UseCors("AcessoTotal");
 app.Run();
